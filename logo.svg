@@ -1,0 +1,17 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="256"
+  height="256"
+  viewBox="0 0 56 56"
+  role="img"
+  aria-label="Logo Renan Gama"
+>
+  <!-- Container -->
+  <rect x="0" y="0" width="56" height="56" rx="15" fill="#E4F3ED"/>
+
+  <!-- Cruz quadrada (mais grossa) -->
+  <!-- Vertical -->
+  <rect x="22" y="8" width="12" height="40" fill="#1F9D6E"/>
+  <!-- Horizontal -->
+  <rect x="8" y="22" width="40" height="12" fill="#1F9D6E"/>
+</svg>
