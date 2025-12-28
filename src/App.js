@@ -1,21 +1,36 @@
-import './App.css';
-import Header from './components/Header';
+import "./App.css";
+import { BiPlusMedical } from "react-icons/bi";
 
 function App() {
   return (
     <div className="App">
-      {/* <Header></Header> */}
-      <div style={{display: 'flex', width: '100%', height: '99.6vh'}}>
-        <div style={{display: 'flex', flexDirection: 'column', width: '50%', placeContent: 'center', alignItems: 'center'}}>
-          <div style={{textAlign: 'left'}}>
-            <h1>Renan Gama</h1>
-            <h2>Estudante de Medicina - UNR</h2>
+      <main className="container">
+        <section className="card">
+          <div className="icon-container">
+            <BiPlusMedical className="icon" />
           </div>
-        </div>
-        <div style={{width: '50%', height: '100%'}}>
-          <img style={{width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top'}} src="./profile_photo.jpg"/>
-        </div>
-      </div>
+
+          <h1 className="name">Dr. Renan Gama</h1>
+
+          <p className="subtitle">
+            Prática médica guiada pela ciência, pela ética e pelo respeito ao paciente.
+          </p>
+
+          <div className="divider" />
+
+          <p className="description">
+            Medicina responsável, precisa e humana.
+          </p>
+
+          <p className="coming-soon">
+            Mais informações em breve.
+          </p>
+        </section>
+
+        <footer className="footer">
+          © {new Date().getFullYear()} Renan Gama
+        </footer>
+      </main>
     </div>
   );
 }
